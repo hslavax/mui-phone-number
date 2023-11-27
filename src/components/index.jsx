@@ -580,6 +580,7 @@ class MaterialUiPhoneNumber extends React.Component {
       },
       positionStart: {
         position: 'relative',
+        marginRight: 0
       },
     };
 
