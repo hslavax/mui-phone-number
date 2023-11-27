@@ -65,6 +65,7 @@
   "peerDependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.14.18",
     "@mui/material": "^5.11.10",
     "clsx": "^1.2.1",
     "prop-types": "^15.8.1",

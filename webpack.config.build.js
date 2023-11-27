@@ -31,6 +31,8 @@ module.exports = merge(common, {
     },
     '@mui/material',
     /@mui\/material\/*./,
+    '@mui/icons-material',
+    /@mui\/icons-material\/*./,
     'clsx',
   ],
   module: {

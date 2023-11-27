@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Flags from 'country-flag-icons/react/3x2';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';
@@ -656,6 +657,7 @@ class MaterialUiPhoneNumber extends React.Component {
                   aria-haspopup
                 >
                   {Boolean(FlagComponent) && <FlagComponent className="margin" />}
+                  <ArrowDropDownIcon />
                 </IconButton>
 
                 <Menu
